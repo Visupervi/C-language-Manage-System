@@ -1,0 +1,26 @@
+﻿@import url("base.css");
+body{background:url(../images/bg.gif);}
+/* 绿色背景容器 */
+.top_box{width:100%; overflow:hidden; position:absolute; left:0px; top:-50%; background-color:#67AD03;}
+
+/* 登录页面主体容器 */
+.log_box{width:670px; height:400px; overflow:hidden; position:absolute; top:50%; left:50%; margin-left:-300px; margin-top:-200px; z-index:1;}
+
+.log_top{width:600px; height:120px; padding-top:80px; text-align:center;}
+.log_top h1{width:100%; overflow:hidden; line-height:50px; font-size:40px; font-weight:normal; color:#ffffff;}
+.log_top h2{width:100%; overflow:hidden; line-height:30px; font-size:24px; font-weight:normal; color:#ffffff;}
+
+.log_foot{width:670px; height:34px; overflow:hidden; margin-top:40px;}
+.log_foot dt{width:70px; height:34px; overflow:hidden;}
+.log_foot dt span{display:block; background:#eeeeee; border:1px solid #dddddd; line-height:32px; text-align:center;}
+.log_foot dt input{width:68px; height:34px; overflow:hidden; background:#eeeeee; border:1px solid #dddddd; line-height:34px; text-align:center; cursor:pointer;}
+.log_foot dd{width:195px; height:34px; overflow:hidden; float:left;}
+.log_foot dd input{width:174px; height:32px; overflow:hidden; padding:0px 5px; border:1px solid #dddddd; border-left:0px; line-height:32px; }
+
+.log_copy{width:100%; margin-top:15px; line-height:30px; text-align:center; font-size:14px; color:#bbbbbb;}
+
+
+
+
+
+

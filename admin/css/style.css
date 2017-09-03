@@ -1,0 +1,109 @@
+﻿@import url("base.css");
+@import url("ascx.css");
+/*main*/
+.center{min-height:400px; width:1200px; margin:0px auto 0 auto; border:1px solid #dddddd;border-radius:3px; background-image:url(../images/cent_bg.gif); background-repeat: repeat-y;}
+
+/*密码框*/
+.form_box{margin:0px 40px;}
+.main_form{width:920px; overflow:hidden; margin-bottom:40px;}
+.main_form dt{width:98px; 
+line-height:40px; font-size:14px; margin-top:20px;
+}
+.main_form dd{width:820px; overflow:hidden; margin-top:20px;
+    height: 75px;
+}
+.main_form dd h4{line-height:20px; padding-left:5px; color:#999; font-size:12px; font-weight:normal;}
+.main_form dd h4 span{color:#f00; margin-right:5px;}
+.main_form dd.only{width:920px;}
+.text1{width:808px; height:40px; line-height:20px;}
+.area1{width:808px; height:96px;}
+.area2{width:808px; height:288px;}
+.butt1{line-height:20px; }
+.butt1 a:hover{ background-color:#67ad03;}
+.form_img{height:70px; margin-top:10px; margin-right:10px;}
+.xh_tit{width:100%; height:40px; overflow:hidden; text-align:center; line-height:30px; font-size:20px; font-weight:bold; color:#333333;}
+.xh_dat{width:100%; height:20px; overflow:hidden; text-align:center; line-height:20px; font-size:12px; color:#bbbbbb;}
+.xh_dat span{margin:0px 5px;}
+.xh_txt{width:96%; overflow:hidden; margin:0px auto 20px auto; font-size:14px; line-height:28px; color:#666666; border-top:1px dashed #e7e7e7; border-bottom:1px dashed #e7e7e7;}
+.xh_txt span{color:#ff0000;}
+/*sty1*/
+.sty1_box{margin:0px 40px;}
+.sty1_list li{height:40px; margin:0px 40px 40px 0px; position:relative;}
+.sty1_list li a.add{display:block; width:120px; height:38px; overflow:hidden; background:#f3f3f3; border:1px dashed #e3e3e3; border-radius:3px; color:#333;}
+.sty1_list li a.add p{text-align:center; line-height:38px;}
+.sty1_list li a.add i{margin:9px auto;}
+.sty1_list li a.add p.icon, .sty1_list li a.add:hover p.text{display:block;}
+.sty1_list li a.add:hover p.icon, .sty1_list li a.add p.text{display:none;}
+.sty1_list li a.site{display:block; padding:0px 20px; line-height:38px; font-size:14px; color:#333; background:#f3f3f3; border:1px solid #e3e3e3; border-radius:3px;}
+.sty1_list li a.dele{display:none; width:20px; height:20px; overflow:hidden; position:absolute; right:-5px; top:-5px; background:url(../images/xh_adm.png) no-repeat -320px 0px}
+.sty1_list li:hover a.add{color:#fff; background:#67ad03; border:1px dashed #638467; border-radius:3px;}
+.sty1_list li:hover a.site{color:#fff; background:#67ad03; border:1px solid #638467; border-radius:3px;}
+.sty1_list li:hover a.dele{display:block;}
+
+/*sty2*/
+.sty2_box{width:920px; margin:0px 40px;}
+.sty2_list{height:40px; overflow:hidden; line-height:40px; border-bottom:1px dashed #e3e3e3;}
+.sty2_tit{border-top-left-radius:5px; border-top-right-radius:5px; background:#f3f3f3;}
+.sty2_list:hover{background:#f3f3f3;}
+.sty2_lia{width:100px;}
+.sty2_lib{width:400px;}
+.sty2_lic{width:150px;}
+.sty2_lid{width:170px;}
+.sty2_lie{width:75px;}
+.sty2_lif{width:200px;}
+.sty2_list li p.left{margin-left:20px;}
+.sty2_list li .ts{color:#67ad03;}
+.sty2_edit{display:block; color:#333; text-align:center;}
+.sty2_edit:hover{background:#67ad03; color:#fff;}
+.sty2_list .text_px{width:40px; height:20px; line-height:20px; margin-top:9px; text-align:center;}
+/*sty3*/
+.sty3_box{width:960px; margin:0px 0px 0px 40px;}
+.sty3_list{width:198px; height:175px; overflow:hidden; margin:0px 40px 40px 0px; border:1px solid #d3d3d3; border-radius:3px;}
+.sty3_list dt{height:134px; border-bottom:1px dashed #d3d3d3; position:relative;}
+.sty3_list dt img{width:190px; height:126px; padding:4px;}
+.sty3_list dt p{width:100%; padding:8px 0px; background:url(../images/xh_adm.png) no-repeat -350px 0px; position:absolute; left:0px; bottom:0px; display:none;}
+.sty3_list dt span{margin:0px 10px; line-height:22px; font-size:14px; color:#fff;}
+.sty3_list:hover p{display:block;}
+.sty3_list dd{height:40px; background:#f3f3f3;}
+.sty3_list dd a{display:block; width:99px; height:40px; overflow:hidden; line-height:40px; color:#333; text-align:center;}
+.sty3_list dd a:hover{background:#67ad03; color:#fff;}
+
+
+/*mail list*/
+.sty4_box{width:960px; margin:0px 0px 0px 40px;}
+.mail_list{width:960px; overflow:hidden; margin-top:20px; padding-bottom:20px; border-bottom:1px dashed #dddddd;}
+.mail_list dt{float:left; width:40px; overflow:hidden; margin-right:10px; text-align:center;}
+.mail_list dt p{width:30px; height:30px; overflow:hidden; margin:0px auto 10px auto;}
+.mail_list dt .mail_icon{width:30px; height:90px; margin-top:-30px;}
+.mail_list dd{float:left; width:910px; overflow:hidden;}
+.mail_list dd .mailTit{width:910px; height:30px; overflow:hidden; line-height:24px; font-size:14px;}
+.mail_list dd .mailTit a{color:#333333;}
+.mail_list dd .mailTit span{color:#bbbbbb; font-size:12px;}
+.mail_list dd .mailTel{width:910px; height:30px; overflow:hidden; line-height:30px; color:#999999;}
+.mail_list dd .mailTel span{margin-right:10px;}
+.mail_list dd .mailTxt{width:910px; overflow:hidden; line-height:20px; color:#999999;}
+.mail_list dd .mailTxt span{color:#67ad03;}
+.new_mail dt .mail_icon{margin-top:0px;}
+.new_mail dd .mailTit{font-weight:bold;}
+.fen_mail dt .mail_icon{margin-top:-60px;}
+
+/*icon*/
+.ia{display:block; width:20px; height:20px; overflow:hidden; background:url(../images/xh_adm.png) no-repeat -40px -100px;}
+
+/*main_head*/
+.main_head{width:920px; height:30px; overflow:hidden; margin-bottom:40px; padding:30px 40px; background:#f3f3f3; border-bottom:1px dashed #ddd;}
+.main_head_select{margin-top:5px;}
+.main_lab{ margin-top:5px;}
+.main_head_add{height:28px; line-height:28px; padding:0px 10px; font-size:12px;}
+
+/*main_foot*/
+.main_foot{width:920px; height:36px; overflow:hidden; padding:27px 40px; background:#f3f3f3; border-top:1px dashed #ddd;}
+.save_px{height:36px; line-height:34px;}
+
+/*分页*/
+.pegaBox{height:34px; overflow:hidden; text-align:left;}
+.pegaBox .bigA{display:inline-block; width:60px; height:32px; overflow:hidden; margin:0 5px; background:#ffffff; border:1px solid #dddddd; text-align:center; font-size:14px; line-height:32px; color:#666666;}
+.pegaBox .smallA{display:inline-block; width:32px; height:32px; overflow:hidden; margin:0 5px; background:#ffffff; border:1px solid #dddddd; text-align:center; font-size:14px; line-height:32px; color:#666666;}
+.pegaBox a{ border-radius:3px;}
+.pegaBox a.curr{background:#67ad03; border:1px solid #638467; color:#ffffff; font-weight:bold;}
+.pegaBox span{display:inline-block; height:32px; overflow:hidden; margin:0 5px; line-height:32px; border-radius:3px;}

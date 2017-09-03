@@ -1,0 +1,44 @@
+﻿/* CSS Document */
+.fl{ float:left;}
+.fr{ float:right;}
+.cl{ clear:both;}
+/*重定义的html样式*/
+* html{background-image:url(about:blank); background-attachment:fixed;} 
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {margin:0; padding:0;}
+fieldset, img {display:block; border:none;}
+ul, li, ol, dl, dt, dd{list-style:none;}
+a{text-decoration:none; cursor:pointer;}
+body{font-size:12px; font-family:Arial,Microsoft YaHei; background:#ffffff;}
+
+
+/*清除浮动样式*/
+.clearfix:after{content:"."; display:block; height:0; visibility:hidden; clear:both;}
+.clearfix {zoom:1;}   
+.clear{clear:both; height:0; font-size:0; overflow:hidden;}
+
+/*隐藏的div*/
+.hide_div{width:0px; height:0px; overflow:hidden;}
+.block_a{display:block; overflow:hidden; border-radius:3px; background:#67ad03; border:1px solid #638467; color:#ffffff;}
+
+/*表单样式*/
+.bd_text{overflow:hidden; padding:0px 5px; border-radius:3px; outline-style:none; border:1px solid #eeeeeee; background:#ffffff; font-size:12px; color:#666666;}
+.bd_area{padding:0px 5px; border-radius:3px; resize:none; outline-style:none; border:1px solid #ddd; background:#ffffff; font-size:12px; line-height:24px; color:#666666;}
+.bd_butt{border:none; font-size:14px; color:# 000; cursor:pointer;}
+.bd_drop{height:30px; line-height:30px; font-size:12px; border-radius:3px; outline-style:none; border:1px solid #ddd;}
+
+.input_text{overflow:hidden; padding:0px 5px; border-radius:3px; outline-style:none; border:1px solid #ddd; background:#ffffff; font-size:12px; color:#666666;}
+.input_area{padding:0px 5px; border-radius:3px; resize:none; outline-style:none; border:1px solid #ddd; background:#ffffff; font-size:12px; line-height:24px; color:#666666;}
+.input_butt{overflow:hidden; padding:0px 20px; _padding:0px; border-radius:3px; background:#67ad03; border:1px solid #638467; font-size:14px; color:#ffffff; cursor:pointer;}
+.input_drop{height:30px; line-height:30px; font-size:12px; border-radius:3px; outline-style:none; border:1px solid #ddd;}
+.input_href{overflow:hidden; border-radius:3px; background:#67ad03; border:1px solid #638467; color:#ffffff;}
+
+
+.bt{border-top:1px dashed #ddd;}
+.br{border-right:1px dashed #ddd;}
+.bl{border-left:1px dashed #ddd;}
+.bb{border-bottom:1px dashed #ddd;}
+
+.cp{text-align:center;}
+
+.hide_div{width:0px; height:0px; overflow:hidden;}
+.block40{width:100%; height:40px; overflow:hidden;}

@@ -1,0 +1,6 @@
+﻿/* CSS Document */
+/*head*/
+.head dd:hover{ background-color:#096; color:#cccccc;}
+.head_nav dd{ width:96px; height:30px; float:right; margin-right:40px; font-size:14px; color:White;}
+.head_nav dt{ width:200px; height:auto; margin-left:50px;}
+
